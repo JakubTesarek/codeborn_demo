@@ -1,7 +1,7 @@
 import time
 
-from codeborn_client.bot import Bot
-from codeborn_client.messages import ApiMessage, MessageType
+from codeborn.client.bot import Bot
+from codeborn.client.messages import ApiMessage, MessageType
 
 
 class NoopBot(Bot):
